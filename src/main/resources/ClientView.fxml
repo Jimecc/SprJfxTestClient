@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jim.sprjfx.controller.ClientViewController">
+   <children>
+      <Button onMouseClicked="#onMouseClicked_button_submit" layoutX="475.0" layoutY="329.0" mnemonicParsing="false" text="summit" />
+      <TextField fx:id="textField3" layoutX="105.0" layoutY="45.0" prefHeight="23.0" prefWidth="430.0" promptText="包内容标示,0x01表示信息1，上传信息" />
+      <TextField fx:id="textField4" layoutX="105.0" layoutY="80.0" prefHeight="23.0" prefWidth="430.0" promptText="信息id" />
+      <TextField fx:id="textField5" layoutX="105.0" layoutY="115.0" prefHeight="23.0" prefWidth="430.0" promptText="信息info1" />
+      <TextField fx:id="textField6" layoutX="105.0" layoutY="150.0" prefHeight="23.0" prefWidth="430.0" promptText="信息info2" />
+      <TextField fx:id="textField7" layoutX="105.0" layoutY="185.0" prefHeight="23.0" prefWidth="430.0" promptText="备用" />
+
+       <Label layoutX="20" layoutY="49.0" text="SendBuffer[3]" />
+       <Label layoutX="20" layoutY="84.0" text="SendBuffer[4]" />
+       <Label layoutX="20" layoutY="119.0" text="SendBuffer[5]" />
+       <Label layoutX="20" layoutY="154.0" text="SendBuffer[6]" />
+       <Label layoutX="20" layoutY="193.0" text="SendBuffer[7]" />
+   </children>
+</AnchorPane>

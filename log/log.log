@@ -1,0 +1,22 @@
+2022-03-09 16:13:50.152  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] o.s.boot.SpringApplication               : Starting application using Java 1.8.0_211 on JJJime.lan with PID 52918 (started by hsk in /Users/hsk/Downloads/_BaiduNetDisk/demo 2/SprJfx2)
+2022-03-09 16:13:50.157  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] o.s.boot.SpringApplication               : No active profile set, falling back to default profiles: default
+2022-03-09 16:13:50.229  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-09 16:13:51.013  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-09 16:13:51.015  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-09 16:13:51.039  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-03-09 16:13:51.358  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9d48207c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-09 16:13:51.406  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-03-09 16:13:51.749  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-03-09 16:13:51.755  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-09 16:13:51.755  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-03-09 16:13:51.843  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-09 16:13:51.845  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1615 ms
+2022-03-09 16:13:51.906  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation is not supported on static fields: private static com.jim.sprjfx.service.AsyncTaskService com.jim.sprjfx.SprJfxApplication.asyncTaskService
+2022-03-09 16:13:52.002  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] com.jim.sprjfx.service.MsgSendService    : start WebSocket
+2022-03-09 16:13:52.004  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] c.c.socketio.SocketIOServer              : Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+2022-03-09 16:13:52.159  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] com.jim.sprjfx.service.MsgSendService    : start finish
+2022-03-09 16:13:52.159  INFO 52918 --- [nioEventLoopGroup-2-1] c.c.socketio.SocketIOServer              : SocketIO server started at port: 8890
+2022-03-09 16:13:52.996  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2022-03-09 16:13:53.258  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-09 16:13:53.270  INFO 52918 --- [ForkJoinPool.commonPool-worker-1] o.s.boot.SpringApplication               : Started application in 3.868 seconds (JVM running for 6.385)
+2022-03-09 16:13:53.330  WARN 52918 --- [JavaFX Application Thread] javafx                                   : Loading FXML document with JavaFX API of version 11.0.2 by JavaFX runtime of version 8.0.211
